@@ -2,4 +2,6 @@
 <resources>
     <color name="primaryBackground">@android:color/system_neutral1_900</color>
     <color name="primaryForeground">@android:color/system_neutral1_50</color>
+    <color name="themed_icon_color">@android:color/system_neutral1_50</color>
+    <color name="themed_icon_background_color">@android:color/system_neutral1_900</color>    
 </resources>
