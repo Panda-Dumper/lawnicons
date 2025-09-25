@@ -15553,9 +15553,9 @@
   <item component="ComponentInfo{com.android.youtube.premium/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube_premium" name="YouTube Premium" />
   <item component="ComponentInfo{com.google.android.youtube.pro/com.google.android.youtube.pro.MainActivity}" drawable="youtube" name="Youtube Pro" />
   <item component="ComponentInfo{anddea.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube_revanced" name="Youtube ReVanced" />
-  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube_revanced" name="YouTube ReVanced" />
-  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_revanced" name="YouTube ReVanced" />
-  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.ShellHomeActivity}" drawable="youtube_revanced" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.ShellHomeActivity}" drawable="youtube" name="YouTube ReVanced" />
   <item component="ComponentInfo{com.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="revanced_extended" name="Youtube Revanced Extended" />
   <item component="ComponentInfo{app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="revanced_extended" name="YouTube ReVanced Extended" />
   <item component="ComponentInfo{app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="revanced_extended" name="YouTube ReVanced Extended" />
@@ -16355,4 +16355,8 @@
   <item component="ComponentInfo{com.pjsekai.kr/com.pjsekai.kr.SDKActivity}" drawable="hatsune_miku_colorful_stage" name="프로젝트 세카이 컬러풀 스테이지! feat.하츠네 미쿠 ~~ HATSUNE MIKU: COLORFUL STAGE!" />
   <item component="ComponentInfo{com.pjsekai.kr.qooapp/com.pjsekai.kr.SDKActivity}" drawable="hatsune_miku_colorful_stage" name="프로젝트 세카이 컬러풀 스테이지! feat.하츠네 미쿠 ~~ HATSUNE MIKU: COLORFUL STAGE!" />
   <item component="ComponentInfo{space.takashima.keypo/org.mozc.android.inputmethod.japanese.LauncherActivity}" drawable="generic_keyboard" name="ﾀｸﾄ ｷｰﾎﾞｰﾄﾞ ~~ Takt keyboard" />
+  <item component="ComponentInfo{com.vishnu.whatsappcleaner/com.vishnu.whatsappcleaner.MainActivity}" drawable="chatlaunch_for_whatsapp" name="WhatsApp Cleaner"/>
+  <item component="ComponentInfo{yeah.deepsan.dhbvn/yeah.deepsan.dhbvn.mApp.mActivity.SplashActivity}" drawable="electron" name="DHBVN"/>
+  <item component="ComponentInfo{com.cricfy.tv/com.android.vending.tv.activities.MainActivity}" drawable="microsoft_stream" name="CricFy"/>
+  <item component="ComponentInfo{com.oplus.aimemory/com.oplus.aimemory.MainActivity}" drawable="chat_ai" name="Mind Space"/>
 </resources>
