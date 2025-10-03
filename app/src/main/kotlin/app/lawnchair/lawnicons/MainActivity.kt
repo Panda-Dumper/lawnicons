@@ -30,6 +30,7 @@ import app.lawnchair.lawnicons.ui.util.Constants
 import dagger.hilt.android.AndroidEntryPoint
 import android.graphics.Path
 import android.graphics.Region
+import android.graphics.Bitmap
 
 @ExperimentalFoundationApi
 @ExperimentalMaterial3Api
@@ -86,22 +87,24 @@ class MainActivity : ComponentActivity() {
         val drawable: Drawable? =
             ResourcesCompat.getDrawable(context.resources, iconInfo.drawableId, theme)?.mutate()
                 ?.let {
-                    DrawableCompat.wrap(
-                        it,
-                    )
+                    DrawableCompat.wrap(it)
                 }
 
         if (drawable != null) {
             val targetBitmapSize = 192
-            val bitmap = createBitmap(targetBitmapSize, targetBitmapSize)
+            val bitmap = createBitmap(targetBitmapSize, targetBitmapSize, Bitmap.Config.ARGB_8888)
             val canvas = Canvas(bitmap)
+
+            // Log drawable details for debugging
+            Log.d("SetIntentResult", "Drawable loaded: ${drawable.javaClass}, Intrinsic size: ${drawable.intrinsicWidth}x${drawable.intrinsicHeight}")
 
             // Apply circular mask
             val path = Path()
             val center = targetBitmapSize / 2f
-            val radius = targetBitmapSize / 2f
+            val radius = targetBitmapSize / 2f * 0.95f // Slightly reduce radius to avoid edge clipping
             path.addCircle(center, center, radius, Path.Direction.CW)
-            canvas.clipPath(path, Region.Op.REPLACE)
+            val clipResult = canvas.clipPath(path, Region.Op.REPLACE)
+            Log.d("SetIntentResult", "Canvas clipPath applied: $clipResult")
 
             // Draw background
             canvas.drawColor(primaryBackgroundColor)
@@ -111,10 +114,8 @@ class MainActivity : ComponentActivity() {
             }
 
             val foregroundActualSize = (targetBitmapSize * (2.0f / 3.0f)).toInt()
-
             val insetFromEdgeHorizontal = (targetBitmapSize - foregroundActualSize) / 2
             val insetFromEdgeVertical = (targetBitmapSize - foregroundActualSize) / 2
-
             val right = targetBitmapSize - insetFromEdgeHorizontal
             val bottom = targetBitmapSize - insetFromEdgeVertical
 
@@ -130,13 +131,14 @@ class MainActivity : ComponentActivity() {
                 intent.putExtra(
                     "icon",
                     if (bitmap.isRecycled) {
+                        Log.d("SetIntentResult", "Bitmap is recycled, creating new copy")
                         bitmap
                     } else {
-                        bitmap.copy(requireNotNull(bitmap.config), false)
+                        bitmap.copy(Bitmap.Config.ARGB_8888, false)
                     },
                 )
             } catch (e: Exception) {
-                Log.d("SetIntentResult", e.toString())
+                Log.e("SetIntentResult", "Error adding bitmap to intent: $e")
             }
             val iconRes = Intent.ShortcutIconResource.fromContext(this, iconInfo.drawableId)
 
@@ -152,6 +154,7 @@ class MainActivity : ComponentActivity() {
             intent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, iconRes)
             setResult(RESULT_OK, intent)
         } else {
+            Log.e("SetIntentResult", "Drawable is null for ID: ${iconInfo.drawableId}")
             setResult(RESULT_CANCELED, intent)
         }
     }
