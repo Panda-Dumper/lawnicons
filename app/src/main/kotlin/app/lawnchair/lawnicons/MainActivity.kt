@@ -28,6 +28,8 @@ import app.lawnchair.lawnicons.ui.components.SetupEdgeToEdge
 import app.lawnchair.lawnicons.ui.theme.LawniconsTheme
 import app.lawnchair.lawnicons.ui.util.Constants
 import dagger.hilt.android.AndroidEntryPoint
+import android.graphics.Path
+import android.graphics.Region
 
 @ExperimentalFoundationApi
 @ExperimentalMaterial3Api
@@ -94,6 +96,14 @@ class MainActivity : ComponentActivity() {
             val bitmap = createBitmap(targetBitmapSize, targetBitmapSize)
             val canvas = Canvas(bitmap)
 
+            // Apply circular mask
+            val path = Path()
+            val center = targetBitmapSize / 2f
+            val radius = targetBitmapSize / 2f
+            path.addCircle(center, center, radius, Path.Direction.CW)
+            canvas.clipPath(path, Region.Op.REPLACE)
+
+            // Draw background
             canvas.drawColor(primaryBackgroundColor)
 
             val foregroundDrawable = drawable.apply {
