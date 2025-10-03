@@ -113,7 +113,7 @@ private fun createAdaptive(xmlPath: String, bgColor: String) {
     val drawableName: String = FilenameUtils.getBaseName(xmlPath)
     val resPath: String = FilenameUtils.getFullPath(xmlPath)
 
-    // Create adaptive icon with config_icon_mask path for circular mask
+    // Create adaptive icon with inline oval shape for circular mask
     val document = DocumentHelper.createDocument()
     val root = document.addElement("adaptive-icon")
         .addAttribute("xmlns:android", "http://schemas.android.com/apk/res/android")
@@ -122,13 +122,13 @@ private fun createAdaptive(xmlPath: String, bgColor: String) {
         .addAttribute("android:drawable", bgColor)
     
     val foreground = root.addElement("foreground")
-    val foregroundInset = foreground.addElement("inset")
+    val foregroundLayerList = foreground.addElement("inset")
         .addAttribute("android:inset", "20%")
-    val foregroundLayerList = foregroundInset.addElement("layer-list")
+        .addElement("layer-list")
     
     foregroundLayerList.addElement("item")
-        .addElement("path")
-        .addAttribute("android:pathData", "@string/config_icon_mask")
+        .addElement("shape")
+        .addAttribute("android:shape", "oval")
         .addElement("solid")
         .addAttribute("android:color", "#FFFFFFFF")
     
@@ -136,13 +136,13 @@ private fun createAdaptive(xmlPath: String, bgColor: String) {
         .addAttribute("android:drawable", "@drawable/" + FilenameUtils.getBaseName(foregroundXml))
     
     val monochrome = root.addElement("monochrome")
-    val monochromeInset = monochrome.addElement("inset")
+    val monochromeLayerList = monochrome.addElement("inset")
         .addAttribute("android:inset", "20%")
-    val monochromeLayerList = monochromeInset.addElement("layer-list")
+        .addElement("layer-list")
     
     monochromeLayerList.addElement("item")
-        .addElement("path")
-        .addAttribute("android:pathData", "@string/config_icon_mask")
+        .addElement("shape")
+        .addAttribute("android:shape", "oval")
         .addElement("solid")
         .addAttribute("android:color", "#FFFFFFFF")
     
