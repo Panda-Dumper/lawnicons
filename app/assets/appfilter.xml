@@ -2633,7 +2633,7 @@
   <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity.Blue}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity.Amber}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{org.lineageos.aperture/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.VideoCamera}" drawable="generic_camera" name="Camera" />
+  <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.VideoCamera}" drawable="generic_camera" name="Gcam" />
   <item component="ComponentInfo{com.google.android.GoogleCamera3/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.google.android.GoogleCameraLMC88/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.samsung.agc.gcam88/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
@@ -4842,6 +4842,7 @@
   <item component="ComponentInfo{com.qianyan.eudic/com.eusoft.dict.activity.SplashActivity}" drawable="eudic" name="Eudic" />
   <item component="ComponentInfo{com.eusoft.eudic/com.eusoft.dict.activity.SplashActivity}" drawable="eudic" name="Eudic" />
   <item component="ComponentInfo{com.oceanwing.battery.cam/com.oceanwing.battery.feature_main.mega_splash.SplashActivity}" drawable="eufy" name="eufy" />
+  <item component="ComponentInfo{com.elf.eurekaforbes/com.elf.eurekaforbes.MainActivity}" drawable="euclidea" name="Eureka Forbes" />
   <item component="ComponentInfo{com.eufylife.smarthome/com.oceanwing.eufyhome.main.WelcomeActivity}" drawable="eufy_clean" name="eufy Clean" />
   <item component="ComponentInfo{com.oceanwing.battery.cam/com.oceanwing.battery.cam.main.SplashActivity}" drawable="eufy_security" name="eufy Security" />
   <item component="ComponentInfo{com.oceanwing.smarthome/com.oceanwing.eufylife.ui.activity.WelcomeActivity}" drawable="eufylife" name="EufyLife" />
@@ -9086,6 +9087,7 @@
   <item component="ComponentInfo{in.gov.uidai.mAadhaarPlus/in.gov.uidai.mAadhaarPlus.ui.activity.SplashScreenActivity}" drawable="maadhaar" name="mAadhaar" />
   <item component="ComponentInfo{in.gov.uidai.mAadhaarPlus/in.gov.uidai.mAadhaarPlus.MainActivity}" drawable="maadhaar" name="mAadhaar" />
   <item component="ComponentInfo{in.maccaron/in.maccaron.MainActivity}" drawable="maccaron" name="Maccaron" />
+  <item component="ComponentInfo{in.gov.uidai.facerd/in.gov.uidai.core.CoreActivity}" drawable="maadhaar" name="AadhaarFaceRd" />
   <item component="ComponentInfo{cl.bci.sismo.mach/cl.bci.sismo.mach.machapp.splash.SplashActivity}" drawable="mach" name="MACH" />
   <item component="ComponentInfo{com.kokteyl.mackolik/com.perform.livescores.presentation.views.activities.SplashActivity}" drawable="mackolik" name="Mackolik" />
   <item component="ComponentInfo{com.kokteyl.mackolik/com.perform.livescores.default}" drawable="mackolik" name="Mackolik" />
@@ -19836,4 +19838,19 @@
   <item component="ComponentInfo{com.pjsekai.kr.qooapp/com.pjsekai.kr.SDKActivity}" drawable="hatsune_miku_colorful_stage" name="프로젝트 세카이 컬러풀 스테이지! feat.하츠네 미쿠 ~~ HATSUNE MIKU: COLORFUL STAGE!" />
   <item component="ComponentInfo{com.nttdocomo.android.dmenu2/com.nttdocomo.android.docomo_market.ui.StartupActivity}" drawable="d_menu" name="ｄメニュー ~~ d menu" />
   <item component="ComponentInfo{space.takashima.keypo/org.mozc.android.inputmethod.japanese.LauncherActivity}" drawable="generic_keyboard" name="ﾀｸﾄ ｷｰﾎﾞｰﾄﾞ ~~ Takt keyboard" />
+  <item component="ComponentInfo{com.vishnu.whatsappcleaner/com.vishnu.whatsappcleaner.MainActivity}" drawable="chatlaunch_for_whatsapp" name="WhatsApp Cleaner" />
+  <item component="ComponentInfo{yeah.deepsan.dhbvn/yeah.deepsan.dhbvn.mApp.mActivity.SplashActivity}" drawable="electron" name="DHBVN" />
+  <item component="ComponentInfo{com.cricfy.tv/com.android.vending.tv.activities.MainActivity}" drawable="microsoft_stream" name="CricFy" />
+  <item component="ComponentInfo{com.android.traceur/com.android.traceur.MainActivity}" drawable="settings" name="System Tracing" />
+  <item component="ComponentInfo{com.android.launcher/.Launcher}" drawable="neo_launcher" name="System Launcher" />
+  <item component="ComponentInfo{com.oplus.aimemory/com.oplus.aimemory.MainActivity}" drawable="chat_ai" name="Mind Space" />
+  <item component="ComponentInfo{in.mobility.bharatTaxi/com.mobility.movingtech.MainActivity}" drawable="taxi_coop" name="Bharat Taxi" />
+  <item component="ComponentInfo{com.buyhatke.assistant/com.buyhatke.assistant.views.activities.MainActivity}" drawable="bam" name="Buyhatke" />
+  <item component="ComponentInfo{com.indusind.indie/com.indusind.indie.MainActivity}" drawable="indmoney" name="INDIE" />
+  <item component="ComponentInfo{app.morphe.manager/app.revanced.manager.MainActivity}" drawable="mae" name="Morphe" />
+  <item component="ComponentInfo{com.sportzx.live/com.sportzx.live.MainActivity}" drawable="sportstats" name="SportzX" />
+  <item component="ComponentInfo{app.morphe.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.morphe.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.morphe.android.youtube/com.google.android.youtube.app.honeycomb.ShellHomeActivity}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.morphe.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" name="YouTube Music ReVanced" />
 </resources>
