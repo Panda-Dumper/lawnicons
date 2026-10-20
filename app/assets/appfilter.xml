@@ -218,6 +218,7 @@
   <item component="ComponentInfo{com.ilixa.ebp/com.ilixa.ebp.ui.MainActivity}" drawable="_8bit_photo_lab" name="8Bit Photo Lab" />
   <item component="ComponentInfo{com.abitdo.advance/com.abitdo.advance.activity.SearchActivity}" drawable="_8bitdo" name="8BitDo" />
   <item component="ComponentInfo{com.bbitdo.advanceandroidv2/com.bbitdo.advanceandroidv2.activity.MainActivity}" drawable="_8bitdo" name="8BitDo Ultimate Software V2" />
+  <item component="ComponentInfo{com.codex.torrentx/com.codex.torrentx.MainActivity}" drawable="_8xdl" name="8xDL" />
   <item component="ComponentInfo{nl.browney.nintydayschallenge/nintydayschallenge.MainActivity}" drawable="_90_day_challenge" name="90 Day Challenge" />
   <item component="ComponentInfo{tq.tech.Fps/tq.tech.Fps.splashscreen}" drawable="_90_fps_plus_120_fps" name="90 FPS + 120 FPS" />
   <item component="ComponentInfo{nl.negentwee/nl.negentwee.ui.MainActivity}" drawable="_9292" name="9292" />
@@ -5129,6 +5130,7 @@
   <item component="ComponentInfo{vegabobo.dsusideloader/vegabobo.dsusideloader.SplashActivity}" drawable="dsu_sideloader" name="DSU Sideloader" />
   <item component="ComponentInfo{duleaf.duapp.splash/duleaf.duapp.splash.views.launch.LaunchActivity}" drawable="du" name="du" />
   <item component="ComponentInfo{duleaf.duapp.splash/ae.du.cxapp.ignite.views.SplashActivity}" drawable="du" name="du" />
+  <item component="ComponentInfo{com.ludashi.dualspace/com.ludashi.dualspace.MainActivity}" drawable="dual_space" name="Dual Space" />
   <item component="ComponentInfo{de.dlyt.yanndroid.dualwallpaper/de.dlyt.yanndroid.dualwallpaper.ui.activity.MainActivity}" drawable="dual_wallpaper" name="Dual Wallpaper" />
   <item component="ComponentInfo{com.Seabaa.Dual/com.Seabaa.Dual.Dual}" drawable="dual" name="DUAL!" />
   <item component="ComponentInfo{com.olxmena.horizontal/com.empg.olxeg.MainActivity}" drawable="dubizzle" name="dubizzle" />
@@ -8372,6 +8374,7 @@
   <item component="ComponentInfo{com.boynergrup.hopi/com.boynergrup.hopi.ui.MainActivity}" drawable="hopi" name="Hopi" />
   <item component="ComponentInfo{com.boynergrup.hopi/com.boynergrup.hopi.AliasDefault}" drawable="hopi" name="Hopi" />
   <item component="ComponentInfo{bike.hopp/bike.hopp.MainActivity}" drawable="hopp" name="Hopp" />
+  <item component="ComponentInfo{mobi.stratus.hopr/mobi.stratus.hopr.MainActivity}" drawable="hopr" name="Hopr" />
   <item component="ComponentInfo{com.venter.hopweb/com.venter.hopweb.BootActivity}" drawable="hopweb" name="HopWeb" />
   <item component="ComponentInfo{com.hornyunion.hornyunion/com.unity3d.player.UnityPlayerActivity}" drawable="hornyunion" name="HornyUnion" />
   <item component="ComponentInfo{com.hostelworld.app/com.hostelworld.app.features.launcher.view.LauncherActivity}" drawable="hostelworld" name="Hostelworld" />
@@ -8501,6 +8504,7 @@
   <item component="ComponentInfo{com.microsoft.hub_keyboard/com.microsoft.hub_keyboard.activity.SettingsShellActivity}" drawable="generic_keyboard" name="Hub Keyboard" />
   <item component="ComponentInfo{io.afero.partner.hubspace/io.afero.partner.hubspace.MainActivity}" drawable="hubspace" name="Hubspace" />
   <item component="ComponentInfo{com.hudaapp.android/com.hudaapp.android.screens.MainActivity}" drawable="huda" name="Huda" />
+  <item component="ComponentInfo{com.hudle.consumer.app/com.hudle.consumer.app.MainActivity}" drawable="hudle" name="Hudle" />
   <item component="ComponentInfo{com.superthomaslab.hueessentials/com.superthomaslab.hueessentials.MainActivity}" drawable="hue_essentials" name="Hue Essentials" />
   <item component="ComponentInfo{com.alliancelaundry.app.huebsch/com.alliancelaundry.app.activities.SplashActivity}" drawable="huebsch" name="Huebsch" />
   <item component="ComponentInfo{kr.co.manhole.hujicam/kr.co.manhole.hujicam.d_Main.HJLaunch}" drawable="huji_cam" name="Huji Cam" />
@@ -13695,6 +13699,7 @@
   <item component="ComponentInfo{com.ddm.activity/com.ddm.activity.ui.MainActivity}" drawable="os_monitor" name="OS Monitor" />
   <item component="ComponentInfo{com.afar.osaio/com.yrcx.xuser.ui.activity.YRSplashActivity}" drawable="osaio" name="OSAIO" />
   <item component="ComponentInfo{org.sbaudio.oscope/org.sbaudio.oscope.MainActivity}" drawable="oscilloscope" name="Oscilloscope" />
+  <item component="ComponentInfo{com.coloros.ocrscanner/com.coloros.ocrscanner.MainActivity}" drawable="osee" name="OSee" />
   <item component="ComponentInfo{com.bskit.osint/com.bskit.osint.MainActivity}" drawable="generic_search" name="OSINT" />
   <item component="ComponentInfo{com.gameye98.osint/com.gameye98.osint.MainActivity}" drawable="package_name_viewer" name="OSINT Tools" />
   <item component="ComponentInfo{oskargmbh.de.oskar/oskargmbh.de.oskar.MainActivity}" drawable="oskar" name="Oskar" />
@@ -19389,6 +19394,7 @@
   <item component="ComponentInfo{com.banglalink.toffee/com.mobiotics.vlive.android.ui.splash.SplashActivity}" drawable="toffee" name="Toffee" />
   <item component="ComponentInfo{com.togetherprice/com.togetherprice.MainActivity}" drawable="together_price" name="Together Price" />
   <item component="ComponentInfo{com.toggl.giskard/com.toggl.ui.MainActivity}" drawable="toggl_track" name="Toggl Track" />
+  <item component="ComponentInfo{in.swiggy.android.toing/in.swiggy.android.HomeIcon}" drawable="toing" name="Toing" />
   <item component="ComponentInfo{blue.tokimeki.tokimeki/blue.tokimeki.tokimeki.MainActivity}" drawable="tokimeki_for_bluesky" name="TOKIMEKI for Bluesky" />
   <item component="ComponentInfo{com.tokopedia.tkpd/com.tokopedia.core.SplashScreen}" drawable="tokopedia" name="Tokopedia" />
   <item component="ComponentInfo{com.tokopedia.tkpd/com.tokopedia.tkpd.ConsumerSplashScreen}" drawable="tokopedia" name="Tokopedia" />
