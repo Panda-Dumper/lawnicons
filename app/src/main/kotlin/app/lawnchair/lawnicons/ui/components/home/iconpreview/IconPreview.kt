@@ -43,14 +43,9 @@ import app.lawnchair.lawnicons.ui.LocalLawniconsActions
 import app.lawnchair.lawnicons.ui.util.PreviewLawnicons
 import app.lawnchair.lawnicons.ui.util.PreviewProviders
 import app.lawnchair.lawnicons.ui.util.SampleData
-import kotlin.math.ln
 
 val ColorScheme.iconColor: Color
-    get() {
-        val elevation = 3.dp
-        val alpha = ((4.5f * ln(elevation.value + 1)) + 2f) / 100f
-        return primary.copy(alpha = alpha).compositeOver(surface)
-    }
+    get() = onSurface.copy(alpha = 0.15f)
 
 @Composable
 fun IconPreview(
